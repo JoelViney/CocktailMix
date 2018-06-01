@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beachrife.cocktailmix"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:name="com.beachrife.cocktailmix.ApplicationEx"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_blue"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.beachrife.cocktailmix.ui.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.beachrife.cocktailmix.ui.MyBarActivity"
+            android:label="@string/my_bar_title_activity"
+            android:parentActivityName="com.beachrife.cocktailmix.ui.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.beachrife.cocktailmix.ui.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.beachrife.cocktailmix.ui.DrinkListActivity"
+            android:label="@string/drink_list_title"
+            android:parentActivityName="com.beachrife.cocktailmix.ui.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.beachrife.cocktailmix.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.beachrife.cocktailmix.ui.DrinkDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/drink_detail_title"
+            android:parentActivityName="com.beachrife.cocktailmix.ui.DrinkListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DrinkListActivity" />
+        </activity>
+        <activity
+            android:name="com.beachrife.cocktailmix.ui.SettingsActivity"
+            android:label="@string/settings_title"
+            android:parentActivityName="com.beachrife.cocktailmix.ui.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.beachrife.cocktailmix.ui.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.beachrife.cocktailmix.ui.IngredientDetailActivity"
+            android:label="@string/ingredient_detail_title"
+            android:parentActivityName="com.beachrife.cocktailmix.ui.MyBarActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.beachrife.cocktailmix.ui.MyBarActivity" />
+        </activity>
+        <activity
+            android:name="com.beachrife.cocktailmix.ui.ShoppingActivity"
+            android:label="@string/shopping_title"
+            android:parentActivityName="com.beachrife.cocktailmix.ui.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.beachrife.cocktailmix.ui.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

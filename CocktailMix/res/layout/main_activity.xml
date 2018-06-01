@@ -1,0 +1,60 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    >
+     
+	<TableRow android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" >
+		
+	    <ImageButton
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:contentDescription="@string/main_all_cocktails_button_description"
+	        android:src="@drawable/main_all_cocktails_blue" 
+	        android:onClick="onClickAllCocktailsButton"
+			android:scaleType="centerInside" 
+			android:background="@color/White" />
+     
+	    <ImageButton
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:contentDescription="@string/main_my_cocktails_button_description"
+	        android:src="@drawable/main_my_cocktails_blue" 
+	        android:onClick="onClickMyCocktailsButton"
+			android:scaleType="centerInside" 
+			android:background="@color/White" />
+	    
+    </TableRow>
+    
+	<TableRow android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" >
+    
+	     <ImageButton
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:contentDescription="@string/main_my_bar_button_description"
+	        android:src="@drawable/main_bar_blue" 
+	        android:onClick="onClickMyBarButton"
+			android:scaleType="centerInside" 
+			android:background="@color/White" />
+     
+	    <ImageButton
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:contentDescription="@string/main_my_cocktails_button_description"
+	        android:src="@drawable/main_shopping_blue" 
+	        android:onClick="onClickShoppingButton"
+			android:scaleType="centerInside" 
+			android:background="@color/White" />    
+    </TableRow>
+    
+</TableLayout>

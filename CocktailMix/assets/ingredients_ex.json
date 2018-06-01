@@ -1,0 +1,509 @@
+{"ingredients":
+	[
+		{
+		"name": "Brandy",
+		"ingredientType" : "SPIRIT",
+		"cost" : "29.99",
+		"description": "Brandy is a spirit produced by distilling wine. Brandy generally contains 35–60% alcohol by volume and is typically taken as an after-dinner drink. Some brandies are aged in wooden casks, some are coloured with caramel colouring to imitate the effect of aging, and some brandies are produced using a combination of both aging and colouring."
+		},
+		{
+		"name": "Bourbon",
+		"ingredientType" : "SPIRIT",
+		"cost" : "33.99",
+		"description": ""
+		},
+		{
+		"name": "Calvados",
+		"ingredientType" : "SPIRIT",
+		"cost" : "43.99",
+		"description": "TODO: Could possibly be put in spirits as it is an apple brandy."
+		},
+		{
+		"name": "Cognac",
+		"ingredientType" : "SPIRIT",
+		"cost" : "55.99",
+		"description": "Cognac is named after the town of Cognac in France, is a variety of brandy. It is produced in the wine-growing region surrounding the town from which it takes its name, in the French Departements of Charente and Charente-Maritime."
+		},
+		{
+		"name": "Gin",
+		"ingredientType" : "SPIRIT",
+		"cost" : "31.80",
+		"description": "Gin is a spirit which derives its predominant flavour from juniper berries (Juniperus communis). From its earliest beginnings in the Middle Ages, gin has evolved over the course of a millennium from a herbal medicine to an object of commerce in the spirits industry. Today, the gin category is one of the most popular and widely distributed range of spirits, and is represented by products of various origins, styles, and flavor profiles that all revolve around juniper as a common ingredient."
+		},	
+		{
+		"name": "Rum White",
+		"ingredientType" : "SPIRIT",
+		"cost" : "31.80",
+		"description": "Rum is a distilled alcoholic beverage made from sugarcane byproducts, such as molasses, or directly from sugarcane juice, by a process of fermentation and distillation. The distillate, a clear liquid, is then usually aged in oak barrels. Rum can be referred to in Spanish by descriptors such as ron viejo (old rum) and ron añejo (aged rum)."
+		},
+		{
+		"name": "Rum Dark",
+		"ingredientType" : "SPIRIT",
+		"cost" : "35.80",
+		"description": ""
+		},
+		{
+		"name": "Rum Gold",
+		"ingredientType" : "SPIRIT",
+		"cost" : "35.99",
+		"description": ""
+		},
+		{
+		"name": "Tequila",
+		"ingredientType" : "SPIRIT",
+		"cost" : "38.99",
+		"description": ""
+		},
+		{
+		"name": "Vodka",
+		"ingredientType" : "SPIRIT",
+		"cost" : "32.90",
+		"description": "Vodka is a distilled beverage composed primarily of water and ethanol, sometimes with traces of impurities and flavorings. Vodka is made by the distillation of fermented substances such as grains, potatoes, or sometimes fruits or sugar."
+		},
+		{
+		"name": "Vodka Citron",
+		"ingredientType" : "SPIRIT",
+		"cost" : "32.90",
+		"description": ""
+		},
+		{
+		"name": "Whiskey",
+		"ingredientType" : "SPIRIT",
+		"cost" : "39.90",
+		"description": "Whiskey is a type of distilled alcoholic beverage made from fermented grain mash. Different grains are used for different varieties, including barley, malted barley, rye, malted rye, wheat, and corn. Whisky is typically aged in wooden casks, made generally of charred white oak."
+		},
+		{
+		"name": "Whiskey Irish",
+		"ingredientType" : "SPIRIT",
+		"cost" : "41.99",
+		"description": ""
+		},
+		{
+		"name": "Whiskey Rye",
+		"ingredientType" : "SPIRIT",
+		"cost" : "50.99",
+		"description": ""
+		},
+		{
+		"name": "Scotch",
+		"ingredientType" : "SPIRIT",
+		"cost" : "39.90",
+		"description": ""
+		},
+		
+		{
+		"name": "Absinthe",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "64.99",
+		"description": ""
+		},
+		{
+		"name": "Amaretto",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "37.99",
+		"description": ""
+		},
+		{
+		"name": "Apricot Brandy",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "39.99",
+		"description": ""
+		},
+		{
+		"name": "Bénédictine",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "58.99",
+		"description": ""
+		},
+		{
+		"name": "Blackberry Liqueur",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Campari",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "33.99",
+		"description": ""
+		},
+		{
+		"name": "Champagne",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "12.99",
+		"description": ""
+		},
+		{
+		"name": "Cherry Liqueur",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Coffee Liqueur",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "27.99",
+		"description": ""
+		},
+		{
+		"name": "Cointreau",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Créme de Cacao",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Créme de Cacao Brown",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Créme de Cassis",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Créme de Menthe",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Drambuie",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Galliano",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Grand Marnier",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Irish Cream",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Lillet",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": "Fruit Brandy"
+		},
+		{
+		"name": "Maraschino",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Orange Curaćao",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Peach Schnapps",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Port",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Prosecco",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Raspberry Liqueur",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Triple Sec",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Vermouth Dry",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": "Vermouth is an aromatised fortified wine flavoured with various botanicals (roots, barks, flowers, seeds, herbs, spices).The modern versions of the beverage were first produced in 1757 in Turin, Italy. Vermouth was consumed as a medicinal libation until the later 19th century when it became an important ingredient in many of the first classic cocktails, such as the Martini, the Manhattan, and the Negroni. In addition to being consumed as an aperitif or cocktail ingredient, vermouth is sometimes used as a substitute for white wine in cooking."
+		},
+		{
+		"name": "Vermouth Red",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Vermouth Sweet",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "White Wine Dry",
+		"ingredientType" : "LIQUEUR",
+		"cost" : "0.00",
+		"description": ""
+		},
+		
+		
+		
+		{
+		"name": "Agave Nectar",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "TODO:"
+		},
+		{
+		"name": "Angostura Bitters",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "TODO:"
+		},
+		{
+		"name": "Cola",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "TODO:"
+		},
+		{
+		"name": "Cranberry Juice",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "TODO:"
+		},
+		{
+		"name": "Ginger Beer",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Gomme Syrup",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Grapefruit Juice",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": ""
+		},
+		{
+		"name": "Grenadine",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "Grenadine is a commonly used bar syrup, characterized by a flavor that is both tart and sweet, and a deep red colour. It is popular as an ingredient in cocktails, both for its flavour and to give a reddish/pink tint to mixed drinks."
+		},
+		{
+		"name": "Lemon Juice",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "Lime Juice",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "Orange Bitters",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "Orange Flower Water",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "Orange Juice",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "Orgeat Syrup",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "Peach Bitters",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "Peach Puree",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "Peychaud's Bitters",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "Pineapple Juice",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "Raspberry Syrup",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "Soda Water",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},		
+		{
+		"name": "Strawberry Syrup",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},		
+		{
+		"name": "Sugar Syrup",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "A basic sugar-and-water syrup used to make drinks at bars. Simple syrup is made by stirring granulated sugar into hot water in a saucepan until the sugar is dissolved and then cooling the solution. Generally, the ratio of sugar to water can range anywhere from 1:1 to 2:1. Simple syrup can be used as a sweetener. However, since it gels readily when pectin is added, its primary culinary use is as a base for fruit sauces, toppings and preserves."
+		},
+		{
+		"name": "Water",
+		"ingredientType" : "MIXER",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		
+		
+		
+
+
+
+
+
+
+		{
+		"name": "Coconut Milk",
+		"ingredientType" : "KITCHEN",
+		"cost" : "0.00",
+		"description": "TODO:"
+		},
+		{
+		"name": "Coffee",
+		"ingredientType" : "KITCHEN",
+		"cost" : "0.00",
+		"description": "TODO:"
+		},
+		{
+		"name": "Cream",
+		"ingredientType" : "KITCHEN",
+		"cost" : "0.00",
+		"description": "TODO:"
+		},
+		{
+		"name": "Egg White",
+		"ingredientType" : "KITCHEN",
+		"cost" : "0.00",
+		"description": "TODO:"
+		},
+		{
+		"name": "Egg Yolk",
+		"ingredientType" : "KITCHEN",
+		"cost" : "0.00",
+		"description": "TODO:"
+		},
+		{
+		"name": "Ground Nutmeg",
+		"ingredientType" : "KITCHEN",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "Lime",
+		"ingredientType" : "KITCHEN",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "Mint",
+		"ingredientType" : "KITCHEN",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "Olive Juice",
+		"ingredientType" : "KITCHEN",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "Salt",
+		"ingredientType" : "KITCHEN",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "Brown Sugar",
+		"ingredientType" : "KITCHEN",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "Sugar Cube",
+		"ingredientType" : "KITCHEN",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "White Sugar",
+		"ingredientType" : "KITCHEN",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		},
+		{
+		"name": "Vanilla Extract",
+		"ingredientType" : "KITCHEN",
+		"cost" : "0.00",
+		"description": "TODO: Add a description."
+		}
+	]
+}

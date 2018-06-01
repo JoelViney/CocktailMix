@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    >
+
+	<ImageView
+		android:id="@+id/barItemImage"
+	    android:layout_width="60dp" 
+	    android:layout_height="160dp" 
+	    android:layout_gravity="center_horizontal"
+	    android:src="@drawable/ingredient_unknown" 
+	    android:contentDescription="@string/my_bar_item_image_description" 
+	    android:clickable="true"
+	    />
+	
+	<ToggleButton
+		android:id="@+id/barItemToggleButton"
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+	    android:textOn="Ingredient" 
+	    android:textOff="Ingredient" 
+	    android:textSize="12sp"
+	    android:textColor="@color/toggle_button_colour"
+	    android:clickable="true"
+	    >
+	</ToggleButton>
+	
+	<!-- 
+	<CheckBox android:id="@+id/barHasIngredientCheckBox"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/my_bar_has_ingredient_checkbox"
+	    android:background="@color/Black" 
+	    android:textColor="@color/White" 
+	    android:onClick="onCheckboxClicked"
+	    android:layout_gravity="center_horizontal"
+	    android:paddingLeft="40dp"
+		 />
+	-->
+
+</LinearLayout>

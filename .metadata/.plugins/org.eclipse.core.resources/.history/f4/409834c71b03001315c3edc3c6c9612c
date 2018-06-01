@@ -1,0 +1,110 @@
+package com.beachrife.cocktailmix.ui;
+
+import com.beachrife.cocktailmix.ApplicationEx;
+import com.beachrife.cocktailmix.ApplicationSettings;
+import com.beachrife.cocktailmix.MeasurementType;
+import com.beachrife.cocktailmix.R;
+import com.beachrife.cocktailmix.datalayer.ApplicationSettingsFactory;
+import com.beachrife.cocktailmix.helpers.ConsoleHelper;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v4.app.NavUtils;
+import android.view.KeyEvent;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.RadioButton;
+
+public class TestActivity extends Activity
+{
+	@Override
+	protected void onCreate(Bundle savedInstanceState) 
+	{
+		super.onCreate(savedInstanceState);
+	}
+	
+	/**
+	 * Set up the {@link android.app.ActionBar}.
+	 */
+	private void setupActionBar() 
+	{
+		getActionBar().setDisplayHomeAsUpEnabled(true);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) 
+	{
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.settings_menu, menu);
+
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) 
+	{
+		switch (item.getItemId())
+		{
+		case android.R.id.home:
+			// This ID represents the Home or Up button. In the case of this
+			// activity, the Up button is shown. Use NavUtils to allow users
+			// to navigate up one level in the application structure. For
+			// more details, see the Navigation pattern on Android Design:
+			//
+			// http://developer.android.com/design/patterns/navigation.html#up-vs-back
+			//
+			NavUtils.navigateUpFromSameTask(this);
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+	
+	public void onRadioButtonClicked(View view) 
+	{
+        ApplicationEx context = (ApplicationEx)getApplicationContext();
+        ApplicationSettings settings = context.getSettings();
+        
+	    // Check which radio button was clicked
+	    switch(view.getId()) 
+	    {
+	    	case R.id.clRadioButton: settings.setMeasurementType(MeasurementType.MEASUREMENT_CL); break;
+	        case R.id.mlRadioButton: settings.setMeasurementType(MeasurementType.MEASUREMENT_ML); break;
+	        case R.id.ozRadioButton: settings.setMeasurementType(MeasurementType.MEASUREMENT_OZ); break;
+	    }
+	    
+	    this.dirty = true;
+	    
+		ApplicationSettingsFactory factory = new ApplicationSettingsFactory(context);
+		factory.save(settings);
+	}
+
+	@Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) 
+	{
+		// On the back key save the ratings
+        if(keyCode == KeyEvent.KEYCODE_BACK)
+        {	
+			// Here we need to tell our parents that something has changed or not!
+			Intent intent = this.getIntent();
+			if (dirty)
+			{
+				intent.putExtra(SettingsActivity.SETTING_CHANGED_ARGUMENT, true);
+				this.setResult(RESULT_OK, intent);
+			}
+			else
+			{
+				intent.putExtra(SettingsActivity.SETTING_CHANGED_ARGUMENT, false);
+				this.setResult(RESULT_CANCELED, intent);			
+			}
+
+			ConsoleHelper.writeLine("SettingsActivity:::finish()");
+			finish(); // If you have no further use for this activity or there is no dependency on this activity
+	        return true;
+        }
+        
+        return super.onKeyDown(keyCode, event);
+    }
+
+}

@@ -1,0 +1,167 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ShoppingActivity" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+	android:background="@color/White" 
+	android:orientation="vertical"
+    >
+
+    <RelativeLayout
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    	
+		<TextView android:id="@+id/subtitleTextView" 
+		    android:layout_width="match_parent" 
+		    android:layout_height="wrap_content"
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+		    android:text="@string/shopping_subtitle" />
+		
+		<LinearLayout android:id="@+id/ingredientLayout" android:layout_below="@+id/subtitleTextView" 
+		    android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_marginTop="20dp">
+			
+		    <ImageView android:id="@+id/ingredientImage1"
+		        android:layout_width="60dp" android:layout_height="160dp"
+		        android:clickable="true"
+		        android:contentDescription="@string/my_bar_item_image_description"
+		        android:src="@drawable/liqueur_creme_de_cacao_brown" />
+			
+		    <ImageView android:id="@+id/ingredientImage2"
+		        android:layout_width="60dp" android:layout_height="160dp"
+		        android:clickable="true"
+		        android:contentDescription="@string/my_bar_item_image_description"
+		        android:src="@drawable/spirit_vodka" />
+		    
+		    <ImageView android:id="@+id/ingredientImage3"
+		        android:layout_width="60dp" android:layout_height="160dp"
+		        android:clickable="true"
+		        android:contentDescription="@string/my_bar_item_image_description"
+		        android:src="@drawable/mixer_tonic_water" />
+		    
+			<TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" >
+
+				<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1"
+					android:background="@color/LightGrey" android:paddingBottom="1dp">
+	
+					<TextView android:id="@+id/ingredient1TextView"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:text="@string/shopping_ingredient1_text"
+					    android:textAppearance="?android:attr/textAppearanceSmall"
+					    android:layout_weight="1"
+					    android:background="@color/White"
+					    />	
+					
+					<TextView android:id="@+id/ingredient1AmountTextView"
+					    android:layout_width="wrap_content" 
+					    android:layout_height="wrap_content" 
+					    android:textAppearance="?android:attr/textAppearanceSmall"
+					    android:text="@string/shopping_ingredient1_amount_text"
+					    android:layout_weight="1"
+					    android:singleLine="true"
+					    android:gravity="right"
+					    android:background="@color/White"
+						 />
+				</TableRow>
+				
+				<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1"
+				    android:background="@color/LightGrey" android:paddingBottom="1dp">
+				    
+					<TextView android:id="@+id/ingredient2TextView"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:text="@string/shopping_ingredient2_text"
+					    android:textAppearance="?android:attr/textAppearanceSmall"
+					    android:layout_weight="1"
+					    android:background="@color/White"
+					    />	
+					
+					<TextView android:id="@+id/ingredient2AmountTextView"
+					    android:layout_width="wrap_content" 
+					    android:layout_height="wrap_content" 
+					    android:textAppearance="?android:attr/textAppearanceSmall"
+					    android:text="@string/shopping_ingredient2_amount_text"
+					    android:layout_weight="1"
+					    android:singleLine="true"
+					    android:gravity="right"
+					    android:background="@color/White"
+						 />
+				</TableRow>
+				
+				<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1"
+				    android:background="@color/LightGrey" android:paddingBottom="1dp">
+					<TextView android:id="@+id/ingredient3TextView"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:text="@string/shopping_ingredient3_text"
+					    android:textAppearance="?android:attr/textAppearanceSmall"
+					    android:layout_weight="1"
+					    android:background="@color/White"
+					    />	
+					
+					<TextView android:id="@+id/ingredient3AmountTextView"
+					    android:layout_width="wrap_content" 
+					    android:layout_height="wrap_content" 
+					    android:textAppearance="?android:attr/textAppearanceSmall"
+					    android:text="@string/shopping_ingredient2_amount_text"
+					    android:layout_weight="1"
+					    android:singleLine="true"
+					    android:gravity="right"
+					    android:background="@color/White"
+						 />
+				</TableRow>
+				
+				<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1"
+					    android:background="@color/Black">
+					<TextView
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:background="@color/White"
+					    android:textAppearance="?android:attr/textAppearanceSmall"
+					    android:layout_weight="20"
+					    android:paddingTop="1dp"
+					    />	
+					
+					<TextView android:id="@+id/ingredientTotalAmountTextView"
+					    android:layout_width="wrap_content" 
+					    android:layout_height="wrap_content" 
+					    android:textAppearance="?android:attr/textAppearanceSmall"
+					    android:text="@string/shopping_ingredient_total_amount_text"
+					    android:background="@color/White"
+					    android:singleLine="true"
+					    android:layout_weight="1"
+					    android:gravity="right"
+						 />
+				</TableRow>
+			</TableLayout>
+			
+		</LinearLayout>
+
+
+		<TextView android:id="@+id/blurbTextView" android:layout_below="@+id/ingredientLayout" 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/shopping_blurb_text"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:layout_marginTop="10dp"
+		    />	
+		 
+	</RelativeLayout>
+   
+	<fragment
+	    android:id="@+id/drink_list_container"
+	    android:name="com.beachrife.cocktailmix.ui.DrinkListFragment"
+	    android:layout_width="wrap_content"
+	    android:layout_height="fill_parent"
+	    tools:layout="@android:layout/list_content"
+		android:layout_marginTop="10dp"
+		/>
+		
+     
+	
+</LinearLayout>

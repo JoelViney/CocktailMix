@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".IngredientDetailActivity" 
+    android:orientation="vertical"
+    >
+
+	<LinearLayout
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal"
+	    >
+	
+		<ImageView
+			android:id="@+id/barItemImage"
+		    android:layout_width="60dp" 
+		    android:layout_height="160dp" 
+		    android:layout_gravity="center_horizontal"
+		    android:src="@drawable/ingredient_unknown" 
+		    android:contentDescription="@string/ingredient_detail_image_description" 
+		    />
+		
+		<LinearLayout
+		    android:layout_width="match_parent" 
+		    android:layout_height="wrap_content" 
+		    android:orientation="vertical"
+		    >
+		    
+			<TextView android:id="@+id/titleTextView" 
+			    android:layout_width="match_parent" 
+			    android:layout_height="wrap_content" 
+			    android:textSize="30sp"
+			    android:textAppearance="?android:attr/textAppearanceLarge"
+			    android:text="@string/ingredient_detail_name" />
+			    
+			<TextView android:id="@+id/descriptionTextView" 
+			    android:layout_width="match_parent" 
+			    android:layout_height="wrap_content" 
+	    		android:layout_marginTop="10dp"
+			    android:text="@string/ingredient_detail_description_text"
+			    android:progressDrawable="@drawable/star_yellow"
+		    />
+
+	    </LinearLayout>
+    </LinearLayout>
+
+	<CheckBox android:id="@+id/barHasIngredientCheckBox"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+	    android:textSize="18sp"
+	    android:text="@string/ingredient_detail_bar_has_ingredient_checkbox" 
+	    android:onClick="onCheckboxClicked" />
+	
+	<TextView android:id="@+id/drinkListTitleTextView" 
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:layout_marginTop="10dp"
+	    android:text="@string/ingredient_detail_drink_list_title" />
+			
+    <fragment
+        android:id="@+id/drink_list_container"
+        android:name="com.beachrife.cocktailmix.ui.DrinkListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="2"
+	    android:layout_marginTop="10dp"
+        tools:layout="@android:layout/list_content" />
+    
+</LinearLayout>

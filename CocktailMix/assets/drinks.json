@@ -1,0 +1,843 @@
+{"drinks":
+	[
+		
+		{
+		"name": "B52",
+		"classification": "AFTER_DINNER_COCKTAIL",
+		"method": "Layering or building is done by gently pouring the liquid over the back of a bar spoon. Grand Marnier is the preferred triple sec to use for this drink.\r\n\r\n1. Pour the coffee liqueur into a shot glass.\r\n2. Layer the Irish cream\r\n3. Layer the Triple Sec",
+		"ingredients": 
+			[
+				{"quantity": "20", "name": "Coffee Liqueur"},
+				{"quantity": "20", "name": "Irish Cream"},
+				{"quantity": "20", "name": "Triple Sec"}
+			]
+		}
+		,{
+		"name": "Martini",
+		"classification": "BEFORE_DINNER_COCKTAIL",
+		"method": "1. Pour Gin into a mixing glass filled 2 3rds with ice.\r\n2. Stir thoroughly.\r\n3. Strain into a chilled Martini glass.\r\nGarnish with an olive of a twist of lemon peel.\r\n\r\nA dirty martini contains a splash of olive juice while a perfect martini contains equal portions of dry and sweet vermouth.\r\nAsking for a Martini shaken not stired is simply a snobby way of asking for a weak Martini and should be avoided.",
+		"ingredients": 
+			[
+				{"quantity": "60", "name": "Gin"},
+				{"quantity": "10", "name": "Vermouth Dry"}
+			]
+		}
+		
+		,{
+		"name": "Costa del Sol",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "1. Half fill a collins glass with ice.\r\n2. Pour all the ingredients except for the soda water into the glass\r\n3. Stir gently\r\n4. Top up with soda water.\r\n5. Garnish with an orange wheel and a maraschino cherry.",
+		"ingredients": 
+			[
+				{"quantity": "60", "name": "Rum White"},
+				{"quantity": "30", "name": "Vermouth Sweet"},
+				{"quantity": "30", "name": "Sugar Syrup"},
+				{"quantity": "15", "name": "Lemon Juice"},
+				{"quantity": "90", "name": "Soda Water"}
+			]
+		}		
+		
+		,{
+		"name": "Caipiroska",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "1. Put the lime wedges and sugar into an old fashioned glass.\r\n2. Muddle (avoid over-muddling the lime as it might release too much lemon oil from the rind)\r\n3. Pour in vodka (Stir until sugar disolves?)\r\n4. Add crushed ice\r\n5. Stir well\r\n\r\nGarnish with a wedge of lime.\r\n\r\nThis is a variation of the Caipirinha which is the official cocktail of Brazil.\r\nUse turbinado sugar instead of raw sugar if available.",
+		"ingredients": 
+			[
+				{"quantity": "60", "name": "Vodka"},
+				{"quantity": "1/2 of a", "name": "Lime"},
+				{"quantity": "1 teaspoon", "name": "White Sugar"},
+				{"quantity": "1 teaspoon", "name": "Raw Sugar"}
+			]
+		}
+		
+		,{
+		"name": "White Lady",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Add all ingredients into cocktail shaker filled with ice.\r\nShake well and strain into large cocktail glass.",
+		"ingredients": 
+			[
+				{"quantity": "40", "name": "Gin"},
+				{"quantity": "30", "name": "Triple Sec"},
+				{"quantity": "20", "name": "Lemon Juice"}
+			]
+		}
+	
+		,{
+		"name": "Alexander",
+		"classification": "AFTER_DINNER_COCKTAIL",
+		"method": "Shake and strain into a chilled cocktail glass. Sprinkle with fresh ground nutmeg.",
+		"ingredients": 
+			[
+				{"quantity": "30", "name": "Cognac"},
+				{"quantity": "30", "name": "Créme de Cacao Brown"},
+				{"quantity": "30", "name": "Cream"},
+				{"quantity": "", "name": "Ground Nutmeg"}
+			]
+		}
+		
+		,{
+		"name": "Americano",
+		"classification": "BEFORE_DINNER_COCKTAIL",
+		"method": "Mix the ingredients directly in an old-fashioned glass filled with ice-cubes, add a splash of soda water and garnish with half orange slice.",
+		"ingredients": 
+			[
+				{"quantity": "30", "name": "Campari"},
+				{"quantity": "30", "name": "Vermouth Red"},
+				{"quantity": "A splash of", "name": "Soda Water"}
+			]
+		}
+		
+		,{
+		"name": "Angel Face",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Pour all ingredients into a shaker with ice. Shake. Strain into a cocktail glass.",
+		"ingredients": 
+			[
+				{"quantity": "30", "name": "Gin"},
+				{"quantity": "30", "name": "Apricot Brandy"},
+				{"quantity": "30", "name": "Calvados"}
+			]
+		}
+		
+		,{
+		"name": "Bacardi",
+		"classification": "BEFORE_DINNER_COCKTAIL",
+		"method": "Pour all ingredients into shaker with ice cubes, shake well, strain into chilled cocktail glass.\r\nNote: You should really use Bacardi white rum.",
+		"ingredients": 
+			[
+				{"quantity": "45", "name": "Rum White"},
+				{"quantity": "20", "name": "Lime Juice"},
+				{"quantity": "10", "name": "Grenadine"}
+			]
+		}
+		
+		,{
+		"name": "Between the Sheets",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Pour all ingredients into shaker with ice cubes, shake, strain into chilled cocktail glass.",
+		"ingredients": 
+			[
+				{"quantity": "30", "name": "Rum White"},
+				{"quantity": "30", "name": "Cognac"},
+				{"quantity": "30", "name": "Triple Sec"},
+				{"quantity": "20", "name": "Lemon Juice"}
+			]
+		}
+		
+		,{
+		"name": "Casino",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Pour all ingredients into shaker with ice cubes, shake well, strain into chilled cocktail glass and garnish with a lemon twist and a maraschino cherry.\r\nNote: You should use Old Tom Gin.",
+		"ingredients": 
+			[
+				{"quantity": "40", "name": "Gin"},
+				{"quantity": "10", "name": "Maraschino"},
+				{"quantity": "10", "name": "Orange Bitters"},
+				{"quantity": "10", "name": "Lemon Juice"}
+			]
+		}
+		
+		,{
+		"name": "Clover Club",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Pour all ingredients into cocktail shaker filled with ice. Shake well.Strain into cocktail glass.",
+		"ingredients": 
+			[
+				{"quantity": "45", "name": "Gin"},
+				{"quantity": "15", "name": "Raspberry Syrup"},
+				{"quantity": "15", "name": "Orange Bitters"},
+				{"quantity": "A few drops of", "name": "Egg White"}
+			]
+		}
+		
+		,{
+		"name": "Daiquiri",
+		"classification": "BEFORE_DINNER_COCKTAIL",
+		"method": "Shake and strain into a cocktail glass.",
+		"ingredients": 
+			[
+				{"quantity": "45", "name": "Rum White"},
+				{"quantity": "25", "name": "Lime Juice"},
+				{"quantity": "15", "name": "Sugar Syrup"}
+			]
+		}
+		
+		,{
+		"name": "Derby",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Pour all ingredients into a mixing glass with ice.\r\nStir.\r\nStrain into a cocktail glass.\r\nGarnish with a fresh mint leaves in the drink.",
+		"ingredients": 
+			[
+				{"quantity": "60", "name": "Gin"},
+				{"quantity": "2 drops of", "name": "Peach Bitters"},
+				{"quantity": "2 leaves of", "name": "Mint"}
+			]
+		}
+		
+		,{
+		"name": "Gin Fizz",
+		"classification": "LONG_DRINK",
+		"method": "Shake all ingredients with ice cubes, except soda water. Pour into tumbler.\r\nTop with soda water.\r\nGarnish with lemon slice.",
+		"ingredients": 
+			[
+				{"quantity": "45", "name": "Gin"},
+				{"quantity": "30", "name": "Lemon Juice"},
+				{"quantity": "10", "name": "Sugar Syrup"},
+				{"quantity": "80", "name": "Soda Water"}
+			]
+		}
+		
+		,{
+		"name": "John Collins",
+		"classification": "LONG_DRINK",
+		"method": "Pour all ingredients directly into highball glass filled with ice. Stir gently.\r\nGarnish with lemon slice and maraschino cherry.\r\nAdd a dash of Angostura bitters.\r\n(Note: Use Old Tom Gin for Tom Collins)",
+		"ingredients": 
+			[
+				{"quantity": "45", "name": "Gin"},
+				{"quantity": "30", "name": "Lemon Juice"},
+				{"quantity": "10", "name": "Sugar Syrup"},
+				{"quantity": "80", "name": "Soda Water"},
+				{"quantity": "A dash of", "name": "Angostura Bitters"}
+			]
+		}
+		
+		,{
+		"name": "Manhattan",
+		"classification": "BEFORE_DINNER_COCKTAIL",
+		"method": "Pour all ingredients into mixing glass with ice cubes. Stir well.\r\nStrain into chilled cocktail glass.\r\nGarnish with cocktail cherry.",
+		"ingredients": 
+			[
+				{"quantity": "50", "name": "Whiskey Rye"},
+				{"quantity": "20", "name": "Vermouth Red"},
+				{"quantity": "A dash of", "name": "Angostura Bitters"}
+			]
+		}
+		
+		,{
+		"name": "Mary Pickford",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Shake and strain into a chilled large cocktail glass.",
+		"ingredients": 
+			[
+				{"quantity": "50", "name": "Rum White"},
+				{"quantity": "10", "name": "Maraschino"},
+				{"quantity": "60", "name": "Pineapple Juice"},
+				{"quantity": "10", "name": "Grenadine"}
+			]
+		}
+		
+		,{
+		"name": "Monkey Gland",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Shake and strain into a chilled cocktail glass. 2 drops Absinthe, 2 drops Grenadine",
+		"ingredients": 
+			[
+				{"quantity": "50", "name": "Gin"},
+				{"quantity": "30", "name": "Orange Juice"},
+				{"quantity": "2 drops of", "name": "Absinthe"},
+				{"quantity": "2 drops of", "name": "Grenadine"}
+			]
+		}
+		
+		,{
+		"name": "Negroni",
+		"classification": "BEFORE_DINNER_COCKTAIL",
+		"method": "Pour all ingredients directly into old-fashioned glass filled with ice.\r\nStir gently.\r\nGarnish with half orange slice.",
+		"ingredients": 
+			[
+				{"quantity": "30", "name": "Gin"},
+				{"quantity": "30", "name": "Campari"},
+				{"quantity": "30", "name": "Vermouth Red"}
+			]
+		}
+		
+		,{
+		"name": "Old Fashioned",
+		"classification": "BEFORE_DINNER_COCKTAIL",
+		"method": "Place sugar cube in old-fashioned glass and saturate with bitters, add a dash of plain water.\r\nMuddle until dissolve.\r\nFill the glass with ice cubes and add whisky.\r\nGarnish with orange slice and a cocktail cherry.",
+		"ingredients": 
+			[
+				{"quantity": "30", "name": "Bourbon"},
+				{"quantity": "2 dashes of", "name": "Angostura Bitters"},
+				{"quantity": "One", "name": "Sugar Cube"},
+				{"quantity": "A few dashes of", "name": "Water"}
+			]
+		}
+		
+		,{
+		"name": "Paradise",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Pour all ingredients into cocktail shaker filled with ice. Shake and strain into chilled cocktail glass.",
+		"ingredients": 
+			[
+				{"quantity": "35", "name": "Gin"},
+				{"quantity": "20", "name": "Apricot Brandy"},
+				{"quantity": "15", "name": "Orange Juice"}
+			]
+		}
+		
+		,{
+		"name": "Planter's Punch",
+		"classification": "BEFORE_DINNER_COCKTAIL",
+		"method": "Pour all ingredients, except the bitters, into shaker filled with ice. Shake well. Pour into large glass, filled with ice. Add Angostura bitters, 'on top'.\r\nGarnish with cocktail cherry and pineapple.",
+		"ingredients": 
+			[
+				{"quantity": "35", "name": "Rum Dark"},
+				{"quantity": "20", "name": "Orange Juice"},
+				{"quantity": "15", "name": "Pineapple Juice"},
+				{"quantity": "15", "name": "Lemon Juice"},
+				{"quantity": "15", "name": "Grenadine"},
+				{"quantity": "15", "name": "Sugar Syrup"},
+				{"quantity": "3 to 4 dashes of", "name": "Angostura Bitters"}
+			]
+		}
+		
+		,{
+		"name": "Rusty Nail",
+		"classification": "AFTER_DINNER_COCKTAIL",
+		"method": "Pour all ingredients directly into old-fashioned glass filled with ice.\r\nStir gently.\r\nGarnish with lemon twist.",
+		"ingredients": 
+			[
+				{"quantity": "45", "name": "Scotch"},
+				{"quantity": "25", "name": "Drambuie"}
+			]
+		}
+		
+		,{
+		"name": "Sazerac",
+		"classification": "AFTER_DINNER_COCKTAIL",
+		"method": "Rinse a chilled old-fashioned glass with the absinthe, add crushed ice and set it aside.\r\nStir the remaining ingredients over ice and set it aside.\r\nDiscard the ice and any excess absinthe from the prepared glass, and strain the drink into the glass. Add the Lemon peel for garnish.\r\nNote: The original recipe changed after the American Civil War, rye whiskey substituted cognac as it became hard to obtain.",
+		"ingredients": 
+			[
+				{"quantity": "50", "name": "Cognac"},
+				{"quantity": "10", "name": "Absinthe"},
+				{"quantity": "One", "name": "Sugar Cube"},
+				{"quantity": "2 dashes of", "name": "Peychaud's Bitters"}
+			]
+		}
+		
+		,{
+		"name": "Screwdriver",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Pour all ingredients into a highball glass filled with ice.\r\nStir gently.Garnish with a orange slice.",
+		"ingredients": 
+			[
+				{"quantity":  "50", "name": "Vodka"},
+				{"quantity": "100", "name": "Orange Juice"}
+			]
+		}
+		
+		,{
+		"name": "Sidecar",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Pour all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass.",
+		"ingredients": 
+			[
+				{"quantity": "50", "name": "Cognac"},
+				{"quantity": "20", "name": "Triple Sec"},
+				{"quantity": "20", "name": "Lemon Juice"}
+			]
+		}
+		
+		,{
+		"name": "Whiskey Sour",
+		"classification": "BEFORE_DINNER_COCKTAIL",
+		"method": "Dash egg white (Optional: if used shake little harder to foam up the egg white).\r\nPour all ingredients into cocktail shaker filled with ice. Shake well. Strain in cocktail glass.\r\nIf served ‘On the rocks’, strain ingredients into old-fashioned glass filled with ice.\r\nGarnish with half orange slice and maraschino cherry.",
+		"ingredients": 
+			[
+				{"quantity": "45", "name": "Bourbon"},
+				{"quantity": "30", "name": "Lemon Juice"},
+				{"quantity": "15", "name": "Sugar Syrup"}
+			]
+		}
+		
+		,{
+		"name": "Tuxedo",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Add all ingredients into cocktail shaker filled with ice.\r\nShake well and strain into large cocktail glass. Note: Should use old tom gin.",
+		"ingredients": 
+			[
+				{"quantity": "30", "name": "Gin"},
+				{"quantity": "30", "name": "Vermouth Dry"},
+				{"quantity": "1/2 a bar spoon", "name": "Maraschino"},
+				{"quantity": "1/4 a bar spoon", "name": "Absinthe"},
+				{"quantity":  "3 dashes of", "name": "Orange Bitters"}
+			]
+		}
+		
+		,{
+		"name": "Bellini",
+		"classification": "SPARKLING_COCKTAIL",
+		"method": "Pour peach puree into chilled glass and add sparkling wine. Stir gently. Variations:\r\n* Puccini (fresh mandarin juice)\r\n* Rossini (fresh strawberry puree)\r\n* Tintoretto (fresh pomegranate juice)",
+		"ingredients": 
+			[
+				{"quantity": "100", "name": "Champagne"},
+				{"quantity": "50", "name": "Peach Puree"}
+			]
+		}
+		
+		,{
+		"name": "Black Russian",
+		"classification": "AFTER_DINNER_COCKTAIL",
+		"method": "Pour the ingredients into the old fashioned-glass filled with ice cubes. Stir gently.\r\nNote: for White Russian, float fresh cream on the top and stir gently.",
+		"ingredients": 
+			[
+				{"quantity": "50", "name": "Vodka"},
+				{"quantity": "20", "name": "Coffee Liqueur"}
+			]
+		}
+		
+		,{
+		"name": "Champagne Cocktail",
+		"classification": "SPARKLING_COCKTAIL",
+		"method": "Add dash of Angostura bitter onto sugar cube and drop it into champagne flute.\r\nAdd cognac followed by pouring gently chilled champagne.\r\nGarnish with orange slice and maraschino cherry.",
+		"ingredients": 
+			[
+				{"quantity": "90", "name": "Champagne"},
+				{"quantity": "10", "name": "Cognac"},
+				{"quantity": "2 dashes of", "name": "Angostura Bitters"},
+				{"quantity": "One", "name": "Sugar Cube"}
+			]
+		}
+		
+		,{
+		"name": "Cosmopolitan",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Shake all ingredients in cocktail shaker filled with ice.\r\nStrain into a large cocktail glass\r\nGarnish with lime slice.\r\n Use Cointreau if possible.",
+		"ingredients": 
+			[
+				{"quantity": "40", "name": "Vodka"},
+				{"quantity": "30", "name": "Triple Sec"},
+				{"quantity": "30", "name": "Cranberry Juice"},
+				{"quantity": "Juice from 1/4 of a fresh", "name": "Lime"}
+			]
+		}
+		
+		,{
+		"name": "Cuba Libre",
+		"classification": "LONG_DRINK",
+		"method": "Build all ingredients in a highball glass filled with ice. Garnish with lime wedge.",
+		"ingredients": 
+			[
+				{"quantity": "50", "name": "Rum White"},
+				{"quantity": "120", "name": "Cola"},
+				{"quantity": "10", "name": "Lime Juice"}
+			]
+		}
+		
+		,{
+		"name": "French Connection",
+		"classification": "AFTER_DINNER_COCKTAIL",
+		"method": "Pour all ingredients directly into old fashioned glass filled with ice cubes.\r\nStir gently. IBA Suggest Disaronno amaretto",
+		"ingredients": 
+			[
+				{"quantity": "35", "name": "Cognac"},
+				{"quantity": "35", "name": "Amaretto"}
+			]
+		}
+		
+		,{
+		"name": "God Father",
+		"classification": "AFTER_DINNER_COCKTAIL",
+		"method": "Pour all ingredients directly into old fashioned glass filled with ice cubes.\r\nStir gently. IBA Suggest Disaronno amaretto",
+		"ingredients": 
+			[
+				{"quantity": "35", "name": "Scotch"},
+				{"quantity": "35", "name": "Amaretto"}
+			]
+		}
+
+		,{
+		"name": "God Mother",
+		"classification": "AFTER_DINNER_COCKTAIL",
+		"method": "Pour all ingredients directly into old fashioned glass filled with ice cubes.\r\nStir gently. IBA Suggest Disaronno amaretto",
+		"ingredients": 
+			[
+				{"quantity": "35", "name": "Vodka"},
+				{"quantity": "35", "name": "Amaretto"}
+			]
+		}
+
+		,{
+		"name": "Golden Dream",
+		"classification": "AFTER_DINNER_COCKTAIL",
+		"method": "Pour all ingredients into shaker filled with ice.\r\nShake briskly for few seconds.\r\nStrain into chilled cocktail glass.",
+		"ingredients": 
+			[
+				{"quantity": "20", "name": "Galliano"},
+				{"quantity": "20", "name": "Triple Sec"},
+				{"quantity": "20", "name": "Orange Juice"},
+				{"quantity": "10", "name": "Cream"}
+			]
+		}
+
+		,{
+		"name": "Grasshopper",
+		"classification": "AFTER_DINNER_COCKTAIL",
+		"method": "Pour all ingredients into shaker filled with ice.\r\nShake briskly for few seconds.\r\nStrain into chilled cocktail glass.",
+		"ingredients": 
+			[
+				{"quantity": "30", "name": "Créme de Cacao"},
+				{"quantity": "30", "name": "Créme de Menthe"},
+				{"quantity": "30", "name": "Cream"}
+			]
+		}
+		
+		,{
+		"name": "French 75",
+		"classification": "SPARKLING_COCKTAIL",
+		"method": "Pour all the ingredients, except champagne, into a shaker. Shake.\r\nStrain into a champagne flute.\r\nTop up with champagne. Stir gently.",
+		"ingredients": 
+			[
+				{"quantity": "30", "name": "Gin"},
+				{"quantity": "15", "name": "Lemon Juice"},
+				{"quantity": "2 dashes of", "name": "Sugar Syrup"},
+				{"quantity": "60", "name": "Champagne"}
+			]
+		}
+
+		,{
+		"name": "Harvey Wallbanger",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Pour vodka and orange juice into a highball glass filled with ice.\r\nStir gently and float Galliano on top. Garnish with orange slices and cherry.",
+		"ingredients": 
+			[
+				{"quantity": "45", "name": "Vodka"},
+				{"quantity": "15", "name": "Galliano"},
+				{"quantity": "90", "name": "Orange Juice"}
+			]
+		}
+
+		,{
+		"name": "Hemingway Special",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Pour all ingredients into a shaker with ice. Shake.\r\nStrain into a double cocktail glass.",
+		"ingredients": 
+			[
+				{"quantity": "60", "name": "Rum White"},
+				{"quantity": "40", "name": "Grapefruit Juice"},
+				{"quantity": "15", "name": "Maraschino"},
+				{"quantity": "15", "name": "Lime Juice"}
+			]
+		}
+
+		,{
+		"name": "Horse's Neck",
+		"classification": "LONG_DRINK",
+		"method": "Pour brandy and gigner ale directly into hi-ball glass with ice cubes. Stir gently.\r\nGarnish with the rind of one lemon spiral\r\nAdd dashes of Angostura Bitters to taste (optional).",
+		"ingredients": 
+			[
+				{"quantity": "40", "name": "Rum White"},
+				{"quantity": "12", "name": "Grapefruit Juice"},
+				{"quantity": "A dash of", "name": "Angostura Bitters"}
+			]
+		}
+
+		,{
+		"name": "Irish Coffee",
+		"classification": "HOT_DRINK",
+		"method": "Warm the Irish whiskey over a burner. Pour into the glass (for hot drink) hot coffee, and add a teaspoon of sugar. Float Cream on top.",
+		"ingredients": 
+			[
+				{"quantity": "40", "name": "Whiskey Irish"},
+				{"quantity": "90", "name": "Coffee"},
+				{"quantity": "30", "name": "Cream"},
+				{"quantity": "1 teaspoon of ", "name": "Brown Sugar"}
+			]
+		}
+
+		,{
+		"name": "Kir",
+		"classification": "BEFORE_DINNER_COCKTAIL",
+		"method": "Pour Créme de Cassis into glass, top up with white wine.\r\nFor Kir Royal: Use champagne instead of white wine.",
+		"ingredients": 
+			[
+				{"quantity": "90", "name": "White Wine Dry"},
+				{"quantity": "10", "name": "Créme de Cassis"}
+			]
+		}
+		
+		,{
+		"name": "Long Island Iced Tea",
+		"classification": "LONG_DRINK",
+		"method": "Add all ingredients into highball glass filled with ice.\r\nStir gently. Garnish with lemon spiral. Serve with straw.",
+		"ingredients": 
+			[
+				{"quantity": "15", "name": "Vodka"},
+				{"quantity": "15", "name": "Gin"},
+				{"quantity": "15", "name": "Rum White"},
+				{"quantity": "15", "name": "Tequila"},
+				{"quantity": "15", "name": "Triple Sec"},
+				{"quantity": "30", "name": "Lemon Juice"},
+				{"quantity": "A splash of", "name": "Cola"}
+			]
+		}
+
+		,{
+		"name": "Mai-Tai",
+		"classification": "LONG_DRINK",
+		"method": "Shake and strain into highball glass.\r\nGarnish with pineapple spear, mint leaves and lime peel.\r\nServe with straw.",
+		"ingredients": 
+			[
+				{"quantity": "40", "name": "Rum White"},
+				{"quantity": "20", "name": "Rum Dark"},
+				{"quantity": "15", "name": "Orange Curaćao"},
+				{"quantity": "15", "name": "Orgeat Syrup"},
+				{"quantity": "10", "name": "Lime Juice"}
+			]
+		}
+
+		,{
+		"name": "Margarita",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Pour all ingredients into shaker with ice.\r\nShake well and strain into cocktail glass rimmed with salt\r\n\r\nNote: For a Fruit Margarita blend the selected fruit with the above recipe.",
+		"ingredients": 
+			[
+				{"quantity": "35", "name": "Tequila"},
+				{"quantity": "20", "name": "Cointreau"},
+				{"quantity": "15", "name": "Lime Juice"}
+			]
+		}
+
+		,{
+		"name": "Mimosa",
+		"classification": "SPARKLING_COCKTAIL",
+		"method": "Pour orange juice into flute and gently pour Champagne. Stir gently.\r\nGarnish with orange twist (optional).\r\nNote: a Buck’s Fizz and a Mimosa are the same drink.",
+		"ingredients": 
+			[
+				{"quantity": "75", "name": "Champagne"},
+				{"quantity": "75", "name": "Orange Juice"}
+			]
+		}
+
+		,{
+		"name": "Mojito",
+		"classification": "LONG_DRINK",
+		"method": "Muddle mint springs with sugar and lime juice.\r\nAdd splash of soda water and fill glass with cracked ice. Pour rum and top with soda water.\r\nGarnish with spring of mint leaves and lemon slice. Serve with straw.",
+		"ingredients": 
+			[
+				{"quantity": "40", "name": "Rum White"},
+				{"quantity": "30", "name": "Lime Juice"},
+				{"quantity": "6 sprigs of ", "name": "Mint"},
+				{"quantity": "2 teaspoons of", "name": "White Sugar"},
+				{"quantity": "Top with", "name": "Soda Water"}
+			]
+		}
+		
+		,{
+		"name": "Moscow Mule",
+		"classification": "LONG_DRINK",
+		"method": "Combine the vodka and ginger beer.\r\nAdd lime juice.\r\nGarnish with a lime slice.",
+		"ingredients": 
+			[
+				{"quantity": "45", "name": "Vodka"},
+				{"quantity": "120", "name": "Ginger Beer"},
+				{"quantity": "5", "name": "Lime Juice"}
+			]
+		}
+
+		,{
+		"name": "Mint Julep",
+		"classification": "LONG_DRINK",
+		"method": "In a highball glass gently muddle the mint, sugar and water.\r\nFill the glass with cracked ice, add Bourbon and stir well until the glass is frost.\r\nGarnish with a mint spring.",
+		"ingredients": 
+			[
+				{"quantity": "60", "name": "Bourbon"},
+				{"quantity": "4 sprigs of", "name": "Mint"},
+				{"quantity": "1 teaspoon of", "name": "White Sugar"},
+				{"quantity": "2 teaspoons of", "name": "Water"}
+			]
+		}
+
+		,{
+		"name": "Pina Colada",
+		"classification": "LONG_DRINK",
+		"method": "Blend all the ingredients with ice in a electric blender, pour into a large goblet or Hurricane glass and serve with straws.\r\nGarnish with a slice of pineapple with a cocktail cherry.",
+		"ingredients": 
+			[
+				{"quantity": "30", "name": "Rum White"},
+				{"quantity": "90", "name": "Pineapple Juice"},
+				{"quantity": "30", "name": "Coconut Milk"}
+			]
+		}
+		
+		,{
+		"name": "Sea Breeze",
+		"classification": "LONG_DRINK",
+		"method": "Build all ingredients in a rock glass filled with ice. Garnish with lime wedge.",
+		"ingredients": 
+			[
+				{"quantity": "40", "name": "Vodka"},
+				{"quantity": "120", "name": "Cranberry Juice"},
+				{"quantity": "30", "name": "Grapefruit Juice"}
+			]
+		}
+
+		,{
+		"name": "Sex on the Beach",
+		"classification": "LONG_DRINK",
+		"method": "Build all ingredients in a highball glass filled with ice. Garnish with orange slice.",
+		"ingredients": 
+			[
+				{"quantity": "40", "name": "Vodka"},
+				{"quantity": "20", "name": "Peach Schnapps"},
+				{"quantity": "40", "name": "Cranberry Juice"},
+				{"quantity": "40", "name": "Orange Juice"}
+			]
+		}
+
+		,{
+		"name": "Singapore Sling",
+		"classification": "LONG_DRINK",
+		"method": "Pour all ingredients into cocktail shaker filled with ice cubes. Shake well.\r\nStrain into highball glass.\r\nGarnish with pineapple and cocktail cherry.",
+		"ingredients": 
+			[
+				{"quantity": "30", "name": "Gin"},
+				{"quantity": "15", "name": "Cherry Liqueur"},
+				{"quantity": "8", "name": "Cointreau"},
+				{"quantity": "8", "name": "Bénédictine"},
+				{"quantity": "120", "name": "Pineapple Juice"},
+				{"quantity": "15", "name": "Lime Juice"},
+				{"quantity": "10", "name": "Grenadine"},
+				{"quantity": "A dash of", "name": "Angostura Bitters"}
+			]
+		}
+		
+		,{
+		"name": "Tequila Sunrise",
+		"classification": "LONG_DRINK",
+		"method": "Pour tequila and orange juice directly into highball with ice cubes.\r\nAdd a splash of grenadine to create chromatic effect (sunrise), do not stir.\r\nGarnish with orange slice and cherry.",
+		"ingredients": 
+			[
+				{"quantity": "45", "name": "Tequila"},
+				{"quantity": "90", "name": "Orange Juice"},
+				{"quantity": "15", "name": "Grenadine"}
+			]
+		}
+		
+		,{
+		"name": "Barracuda",
+		"classification": "SPARKLING_COCKTAIL",
+		"method": "METHOD_GOES_HERE",
+		"ingredients": 
+			[
+				{"quantity": "45", "name": "Rum Gold"},
+				{"quantity": "15", "name": "Galliano"},
+				{"quantity": "60", "name": "Pineapple Juice"},
+				{"quantity": "A dash of", "name": "Lime Juice"},
+				{"quantity": "Top with", "name": "Champagne"}
+			]
+		}
+ 
+		,{
+		"name": "Dark 'N' Stormy",
+		"classification": "LONG_DRINK",
+		"method": "In a highball glass filled with ice add 6cl Dark Rum and top with ginger beer. Garnish with lime wedge.",
+		"ingredients": 
+			[
+				{"quantity": "60", "name": "Rum Dark"},
+				{"quantity": "100", "name": "Ginger Beer"}
+			]
+		}
+
+		,{
+		"name": "Dirty Martini",
+		"classification": "BEFORE_DINNER_COCKTAIL",
+		"method": "Pour all ingredients into mixing glass with ice cubes.\r\nStir well.\r\nStrain in chilled martini glass.\r\nGarnish with green olive.",
+		"ingredients": 
+			[
+				{"quantity": "60", "name": "Vodka"},
+				{"quantity": "10", "name": "Vermouth Dry"},
+				{"quantity": "10", "name": "Olive Juice"}
+			]
+		}
+
+		,{
+		"name": "Espresso Martini",
+		"classification": "AFTER_DINNER_COCKTAIL",
+		"method": "Shake and strain into a chilled cocktail glass. Add Sugar Syrup to taste according to individual preference of sweetness.",
+		"ingredients": 
+			[
+				{"quantity": "50", "name": "Vodka"},
+				{"quantity": "10", "name": "Coffee Liqueur"},
+				{"quantity": "", "name": "Sugar Syrup"},
+				{"quantity": "1 short strong of espresso", "name": "Coffee"}
+			]
+		}
+
+		,{
+		"name": "French Martini",
+		"classification": "BEFORE_DINNER_COCKTAIL",
+		"method": "Pour all ingredients into mixing glass with ice cubes. Stir well.\r\nStrain in chilled cocktail glass.\r\nSqueeze oil from lemon peel onto the drink.",
+		"ingredients": 
+			[
+				{"quantity": "45", "name": "Vodka"},
+				{"quantity": "15", "name": "Raspberry Liqueur"},
+				{"quantity": "15", "name": "Pineapple Juice"}
+			]
+		}
+
+		,{
+		"name": "Kamikaze",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Shake and strain into a chilled cocktail glass.",
+		"ingredients": 
+			[
+				{"quantity": "30", "name": "Vodka"},
+				{"quantity": "30", "name": "Triple Sec"},
+				{"quantity": "30", "name": "Lime Juice"}
+			]
+		}
+
+		,{
+		"name": "Lemon Drop Martini",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Shake and strain into a chilled cocktail glass rimmed with sugar, garnish with a slice of lemon.",
+		"ingredients": 
+			[
+				{"quantity": "45", "name": "Vodka"},
+				{"quantity": "15", "name": "Lemon Juice"},
+				{"quantity":  "5", "name": "Sugar Syrup"}
+			]
+		}
+
+		,{
+		"name": "Russian Spring Punch",
+		"classification": "SPARKLING_COCKTAIL",
+		"method": "Shake the ingredients and pour into highball glass. Top with Sparkling wine.\r\nGarnish with a lemon slice and a blackberry.",
+		"ingredients": 
+			[
+				{"quantity": "25", "name": "Vodka"},
+				{"quantity": "25", "name": "Lemon Juice"},
+				{"quantity": "15", "name": "Créme de Cassis"},
+				{"quantity": "10", "name": "Sugar Syrup"}
+			]
+		}
+
+		,{
+		"name": "Vesper",
+		"classification": "BEFORE_DINNER_COCKTAIL",
+		"method": "Shake and strain into a chilled cocktail glass. Garnish with a twist of lemon. Lillet should be blond.",
+		"ingredients": 
+			[
+				{"quantity": "60", "name": "Gin"},
+				{"quantity": "15", "name": "Vodka"},
+				{"quantity": "8", "name": "Lillet"}
+			]
+		}
+		
+		,{
+		"name": "Yellow Bird",
+		"classification": "ALL_DAY_COCKTAIL",
+		"method": "Shake and strain into a chilled cocktail glass.",
+		"ingredients": 
+			[
+				{"quantity": "30", "name": "Rum White"},
+				{"quantity": "15", "name": "Galliano"},
+				{"quantity": "15", "name": "Triple Sec"},
+				{"quantity": "15", "name": "Lime Juice"}
+			]
+		}
+
+	]
+}
